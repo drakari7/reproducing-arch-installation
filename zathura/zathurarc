@@ -1,0 +1,13 @@
+set statusbar-h-padding 0
+set statusbar-v-padding 0
+set page-padding 5
+set default-bg rgba(0,0,0,0)
+set recolor-darkcolor rgba(0,0,0,0)
+set recolor-lightcolor rgba(255,255,255,0)
+set recolor-keephue true
+set statusbar-bg rgba(0,0,0,0)
+set statusbar-fg rgba(236,64,60,1)
+set inputbar-bg rgba(255,255,255,0)
+
+map <Left> scroll full-up
+map <Right> scroll full-down
