@@ -14,3 +14,5 @@ shell = zsh 			(with p10k, add a dot [.] in front of p10k.zsh and zshrc before p
 file manager = ranger 		(with files)
 pdf viewer = zathura 		(with configs)
 neovim config and themes
+GRUB theme = vimix              (install from github)
+
