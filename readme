@@ -15,4 +15,4 @@ file manager = ranger 		(with files)
 pdf viewer = zathura 		(with configs)
 neovim config and themes
 GRUB theme = vimix              (install from github)
-
+mozilla firefox startpage       (keep in .mozilla/startpage/)
