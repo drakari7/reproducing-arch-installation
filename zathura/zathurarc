@@ -1,13 +1,46 @@
 set statusbar-h-padding 0
 set statusbar-v-padding 0
-set page-padding 5
-set default-bg rgba(0,0,0,0)
-set recolor-darkcolor rgba(0,0,0,0)
-set recolor-lightcolor rgba(255,255,255,0)
-set recolor-keephue true
-set statusbar-bg rgba(0,0,0,0)
-set statusbar-fg rgba(236,64,60,1)
-set inputbar-bg rgba(255,255,255,0)
+set page-padding 20
 
+set window-title-home-tilde true
+set statusbar-basename true
+set selection-clipboard clipboard
+set window-height 3000
+set window-width 850 
 map <Left> scroll full-up
 map <Right> scroll full-down
+
+set recolor true
+
+# Colour
+set highlight-color             "#A3BE8C"
+set highlight-active-color      "#81A1C1"
+
+set default-bg                  rgba(2,3,15,0.8)
+set default-fg                  "#fbf1c7"
+
+set recolor-lightcolor          rgba(50,40,35,0.9)
+set recolor-darkcolor           "#fbf1c7"
+
+set statusbar-fg                "#bdae93"
+set statusbar-bg                "#504945"
+
+set inputbar-bg                 "#1d2021"
+set inputbar-fg                 "#fbf1c7"
+
+set notification-bg             "#1d2021"
+set notification-fg             "#fbf1c7"
+
+set notification-error-bg       "#1d2021"
+set notification-error-fg       "#fb4934"
+
+set notification-warning-bg     "#1d2021"
+set notification-warning-fg     "#fb4934"
+
+set highlight-color             "#fabd2f"
+set highlight-active-color      "#83a598"
+
+set completion-bg               "#3c3836"
+set completion-fg               "#ffeec1"
+
+

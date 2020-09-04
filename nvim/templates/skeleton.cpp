@@ -1,0 +1,10 @@
+#include<bits/stc++.h>
+using namespace std;
+#define endl '\n'
+
+
+int main(){
+
+
+    return 0;
+}

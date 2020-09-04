@@ -71,13 +71,9 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 plugins=(
     git
     colored-man-pages
-    colorize
-#    command-not-found
-#    almostontop
     ls
     z
     zsh-autosuggestions
-#    zsh-syntax-highlighting
 )
 
 source $ZSH/oh-my-zsh.sh
@@ -107,11 +103,16 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-alias -g vim='nvim'
 
+# Custom aliases for my zsh shell
+source ~/.alias.zsh
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
+# environment variables
+export EDITOR=nvim
+export VISUAL=nvim
 
+# Run on startup
 fortune
