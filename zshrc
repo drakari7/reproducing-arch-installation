@@ -71,7 +71,7 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 plugins=(
     git
     colored-man-pages
-    ls
+#    ls
     z
     zsh-autosuggestions
 )

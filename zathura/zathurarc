@@ -10,7 +10,8 @@ set window-width 850
 map <Left> scroll full-up
 map <Right> scroll full-down
 
-set recolor true
+### Uncomment to apply recoloring
+#set recolor true
 
 # Colour
 set highlight-color             "#A3BE8C"
